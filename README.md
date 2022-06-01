@@ -1,5 +1,5 @@
 # AcFun-Live  
-[![CodeQL](https://github.com/shilx/acfun-live/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/shilx/acfun-live/actions/workflows/codeql-analysis.yml)  
+[![CodeQL](https://github.com/shilx/acfunlivefortest/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/shilx/acfunlivefortest/actions/workflows/codeql-analysis.yml)  [![Node.js Package](https://github.com/shilx/acfunlivefortest/actions/workflows/npm-publish-github-packages.yml/badge.svg)](https://github.com/shilx/acfunlivefortest/actions/workflows/npm-publish-github-packages.yml)   
 使用 Puppeteer 开启 AcFun 直播监控室，挂牌子，还有开播通知！😏  
 请认准唯二指定下载仓库 Gitee、Github。  
 本工具完全免费、开源，有更好的点子欢迎PR。
