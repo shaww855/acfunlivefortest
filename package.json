@@ -6,10 +6,11 @@
   "bin": "app.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/shilx/acfun-live"
+    "url": "https://github.com/shaww855/acfun-live"
   },
   "scripts": {
     "start": "node entry.js",
+    "test": "node test.js",
     "publish": "pkg entry.js -o acfunlive -t win --public"
   },
   "author": "shaw",
