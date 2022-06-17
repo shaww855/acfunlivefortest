@@ -1,4 +1,4 @@
-name: "Release win"
+name: "Release Win"
 
 on:
   push:
@@ -12,8 +12,9 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - name: Install
+    - name: Set env
       run: npm config set puppeteer_skip_chromium_download=true
+    - name: Install
       run: npm ci
     - name: Build
       run: npm run build:win
