@@ -13,13 +13,14 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Install
+      run: npm config set puppeteer_skip_chromium_download=true
       run: npm ci
     - name: Build
       run: npm run build:win
     - name: Upload binaries to release
       uses: svenstaro/upload-release-action@v2
       with:
-        repo_token: ${{ secrets.YOUR_PERSONAL_ACCESS_TOKEN }}
+        repo_token: ${{ secrets.GITHUB_TOKEN }}
         file: acfunlive.exe
         asset_name: acfunlive.exe
         tag: ${{ github.ref }}
