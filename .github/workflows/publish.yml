@@ -14,7 +14,7 @@ jobs:
     - name: Install
       run: npm ci
     - name: Build
-      run: npm publish
+      run: npm build:win
     - name: Upload binaries to release
       uses: svenstaro/upload-release-action@v2
       with:
