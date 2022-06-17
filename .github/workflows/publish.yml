@@ -1,3 +1,4 @@
+name: "Release win"
 
 on:
   push:
@@ -14,7 +15,7 @@ jobs:
     - name: Install
       run: npm ci
     - name: Build
-      run: npm build:win
+      run: npm run build:win
     - name: Upload binaries to release
       uses: svenstaro/upload-release-action@v2
       with:

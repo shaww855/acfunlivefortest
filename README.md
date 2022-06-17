@@ -1,3 +1,4 @@
+[![.github/workflows/publish.yml](https://github.com/shaww855/acfunlivefortest/actions/workflows/publish.yml/badge.svg)](https://github.com/shaww855/acfunlivefortest/actions/workflows/publish.yml)
 [![Release Drafter](https://github.com/shaww855/acfunlivefortest/actions/workflows/release-drafter.yml/badge.svg)](https://github.com/shaww855/acfunlivefortest/actions/workflows/release-drafter.yml)
 [![CodeQL](https://github.com/shaww855/acfunlivefortest/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/shaww855/acfunlivefortest/actions/workflows/codeql-analysis.yml)
 [![release](https://img.shields.io/github/v/release/shaww855/acfunlivefortest)](https://github.com/shaww855/acfunlivefortest/releases)
