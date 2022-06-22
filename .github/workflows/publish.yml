@@ -1,4 +1,4 @@
-name: "Release Win"
+name: "GitHub Actions Release"
 
 on:
   push:
@@ -22,8 +22,7 @@ jobs:
       uses: svenstaro/upload-release-action@v2
       with:
         repo_token: ${{ secrets.GITHUB_TOKEN }}
-        file: acfunlive.exe
+        file: acfunlive_win_${{ tag }}.exe
         asset_name: acfunlive.exe
         tag: ${{ github.ref }}
         overwrite: true
-        body: "This is my release text"
