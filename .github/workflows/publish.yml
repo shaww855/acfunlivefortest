@@ -1,4 +1,4 @@
-name: "Action publish"
+name: "GitHub Actions Release"
 
 on:
   push:
@@ -7,15 +7,15 @@ on:
 
 jobs:
   build:
-    name: Action publish
+    name: Publish binaries
     runs-on: windows-latest
 
     steps:
     - uses: actions/checkout@v3
-    - uses: actions/setup-node@v3
-    with:
-      node-version: 14
-      cache: 'npm'
+    # - uses: actions/setup-node@v3
+    # with:
+    #   node-version: 14
+    #   cache: 'npm'
     - name: Set env
       run: npm config set puppeteer_skip_chromium_download=true
     - name: Install
