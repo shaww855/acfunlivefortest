@@ -1,4 +1,4 @@
-name: "GitHub Actions Release"
+name: "Actions Release"
 
 on:
   push:
@@ -12,10 +12,12 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
-    - uses: actions/setup-node@v3
-    with:
-      node-version: 14
-      cache: 'npm'
+    - name: 'Get cache'
+      uses: actions/setup-node@v3
+      with:
+        node-version: '14'
+        cache: 'npm'
+        cache-dependency-path: '**/package-lock.json'
     - name: Set env
       run: npm config set puppeteer_skip_chromium_download=true
     - name: Install
