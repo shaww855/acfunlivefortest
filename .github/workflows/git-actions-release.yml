@@ -24,11 +24,13 @@ jobs:
       run: npm ci
     - name: Build
       run: npm run build:win
+    - name: Zip
+      run: makecab acfunlive.exe acfunlive.zip
     - name: Upload to release
       uses: svenstaro/upload-release-action@v2
       with:
         repo_token: ${{ secrets.GITHUB_TOKEN }}
-        file: acfunlive.exe
-        asset_name: acfunlive_win_$tag.exe
+        file: acfunlive.zip
+        asset_name: acfunlive_win_$tag.zip
         tag: ${{ github.ref }}
         overwrite: true
