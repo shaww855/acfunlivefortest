@@ -1,24 +1,23 @@
 {
   "name": "acfun-live",
-  "version": "1.5.1",
+  "version": "1.5.3",
   "description": "使用 Puppeteer 开启 acfun 直播监控室，挂牌子！😏",
   "main": "index.js",
   "bin": "app.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/shilx/acfun-live"
+    "url": "https://github.com/shaww855/acfun-live"
   },
   "scripts": {
     "start": "node entry.js",
-    "test": "node test.js",
-    "publish": "pkg entry.js -o acfunlive -t win --public"
+    "build:win": "pkg entry.js -o acfunlive -t win --public"
   },
   "author": "shaw",
   "license": "ISC",
   "dependencies": {
     "inquirer": "^8.2.4",
     "node-schedule": "^2.1.0",
-    "puppeteer": "^14.1.1",
+    "puppeteer": "^15.1.0",
     "qrcode": "^1.5.0"
   },
   "devDependencies": {
