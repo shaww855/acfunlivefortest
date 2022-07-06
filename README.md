@@ -1,9 +1,9 @@
-# AcFun-Live  
-[![Actions Release](https://github.com/shaww855/acfun-live/actions/workflows/git-actions-release.yml/badge.svg)](https://github.com/shaww855/acfun-live/actions/workflows/git-actions-release.yml)
-[![CodeQL](https://github.com/shaww855/acfun-live/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/shaww855/acfun-live/actions/workflows/codeql-analysis.yml)  
-[![version](https://img.shields.io/github/package-json/v/shaww855/acfun-live)](https://github.com/shaww855/acfun-live/tags)
-[![downloads](https://img.shields.io/github/downloads/shaww855/acfun-live/total)](https://github.com/shaww855/acfun-live/releases)
-[![license](https://img.shields.io/github/license/shaww855/acfun-live)](https://github.com/shaww855/acfun-live/blob/main/LICENSE)  
+# acfunlivefortest  
+[![Actions Release](https://github.com/shaww855/acfunlivefortest/actions/workflows/git-actions-release.yml/badge.svg)](https://github.com/shaww855/acfunlivefortest/actions/workflows/git-actions-release.yml)
+[![CodeQL](https://github.com/shaww855/acfunlivefortest/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/shaww855/acfunlivefortest/actions/workflows/codeql-analysis.yml)  
+[![version](https://img.shields.io/github/package-json/v/shaww855/acfunlivefortest)](https://github.com/shaww855/acfunlivefortest/tags)
+[![downloads](https://img.shields.io/github/downloads/shaww855/acfunlivefortest/total)](https://github.com/shaww855/acfunlivefortest/releases)
+[![license](https://img.shields.io/github/license/shaww855/acfunlivefortest)](https://github.com/shaww855/acfunlivefortest/blob/main/LICENSE)  
 使用 Puppeteer 开启 AcFun 直播监控室，挂牌子，还有开播通知！😏  
 请认准唯二指定下载仓库 Gitee、Github。  
 本工具完全免费、开源，有更好的点子欢迎PR。
@@ -22,8 +22,8 @@
 - ## Windows  
   **可选扫码登录，无需输入账号密码**  
   支持 Windows10 及以上，请前往 发布页面 下载：   
-  - [国内下载地址](https://gitee.com/cn_shaw/acfun-live/releases)  
-  - [海外下载地址](https://github.com/shaww855/acfun-live/releases)  
+  - [国内下载地址](https://gitee.com/cn_shaw/acfunlivefortest/releases)  
+  - [海外下载地址](https://github.com/shaww855/acfunlivefortest/releases)  
 - ## Linux  
   - 安装  
       - NodeJs 和 NPM （尽量保持为最新版）
@@ -142,4 +142,4 @@ version | String | 当前版本号<br>本工具会将它与Github上的版本号
 
 ## Stargazers over time
 
-[![Stargazers over time](https://starchart.cc/shaww855/acfun-live.svg)](https://starchart.cc/shaww855/acfun-live)
+[![Stargazers over time](https://starchart.cc/shaww855/acfunlivefortest.svg)](https://starchart.cc/shaww855/acfunlivefortest)
